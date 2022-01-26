@@ -1,4 +1,4 @@
-.home-page-banner .slide-item img {
+#home-page-banner-part .slide-item img {
   height: 500px;
 }
 
@@ -27,3 +27,28 @@
   margin-bottom: 30px;
 }
 
+
+@media only screen and (max-width:575px) {
+  .slide-item-overlay h1 { 
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 26px;
+  }
+
+  .slide-item-overlay p { 
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+  
+}

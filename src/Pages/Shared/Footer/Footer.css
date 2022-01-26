@@ -1,0 +1,26 @@
+.footer {
+  padding: 50px 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://github.com/AnirbanAnu2000/img-storage/blob/main/care/about/about3.jpg?raw=true) no-repeat center;
+  background-size: cover;
+  color: #fff;
+  /* background-attachment: fixed; */
+}
+
+.contact-social-link li {
+  margin-bottom: 20px;
+}
+
+.footer-social-links i {
+  margin-right: 20px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.footer ul{
+  list-style: none;
+  margin: 0;
+}
+
+.footer ul li{
+  padding: 0;
+}
