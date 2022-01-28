@@ -5,6 +5,8 @@ import HomePageBanner from '../HomePageBanner/HomePageBanner';
 import HomePageServices from '../HomePageServices/HomePageServices';
 import '../../Shared/Footer/Footer.css';
 import Footer from '../../Shared/Footer/Footer';
+import HomePageFaq from '../HomePageFaq/HomePageFaq';
+import HomePageSpecialist from '../HomePageSpecialist/HomePageSpecialist';
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <HomePageBanner></HomePageBanner>
       <HomePageAbout></HomePageAbout>
       <HomePageServices></HomePageServices>
+      <HomePageFaq></HomePageFaq>
+      <HomePageSpecialist></HomePageSpecialist>
       <Footer></Footer>
     </div>
   );

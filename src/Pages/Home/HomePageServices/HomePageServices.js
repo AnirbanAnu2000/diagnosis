@@ -5,7 +5,7 @@ import './HomePageServices.css';
 const HomePageServices = () => {
   return (
     <div id="home-page-services-part">
-      <div className="container pb-5">
+      <div className="container pb-5 home-page-services-container">
         <h1 className="services-part-heading text-center fw-bold brand-color pt-5 pb-4"><i className="fab fa-pagelines"></i> আমাদের সার্ভিস সমূহ</h1>
         <div className="row">
           <div className="col-lg-4">

@@ -1,3 +1,7 @@
+#home-page-about-part {
+  border-bottom: 1px solid #097a09;
+}
+
 .about-img {
   height: 450px;
 }
@@ -7,14 +11,12 @@
   padding-right: 50px;
 }
 
-.home-about-part-right h2 {
-  margin-top: 70px;
+.home-about-part-right h1 {
+  margin-top: 60px;
   margin-bottom: 30px;
   font-weight: 700;
-
 }
 
 .home-about-part-right p {
   margin-bottom: 30px;
-
 }

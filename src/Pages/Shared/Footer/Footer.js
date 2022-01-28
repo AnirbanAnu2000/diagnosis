@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="col-lg-4">
               <div className="footer-left-content mb-4 d-flex align-items-center">
                 <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/care/logo.png" className="" alt="" style={{width:"50px"}} />
-                <h4 style={{fontSize:"24px"}} className="text-white text-extra-bold heading-font d-inline-block">Care Diagnosis</h4>
+                <h4 style={{fontSize:"24px"}} className="brand-color text-extra-bold heading-font d-inline-block">Care Diagnosis</h4>
               </div>
               <div>
                 <ul style={{paddingLeft:0}} className="contact-social-link">
@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-4">
-              <h2 style={{fontSize:"24px"}} className="text-white text-extra-bold mb-4">Important Links</h2>
+              <h2 style={{fontSize:"24px"}} className="brand-color text-extra-bold mb-4">Important Links</h2>
               <div className="footer-middle-content d-flex align-items-center">
                 <ul style={{paddingLeft:0,marginRight:"50px"}}>
                   <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >Important Link-01</a></li>
@@ -42,17 +42,20 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-lg-4">
-              <h2 style={{fontSize:"24px"}} className="text-white text-extra-bold mb-4 footer-instagram">Contact Us</h2>
+              <h2 style={{fontSize:"24px"}} className="brand-color text-extra-bold mb-4 footer-instagram">Contact Us</h2>
               <div>
                 <form>
-                  <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name" />
+                  <div className="mb-3">
+                    <input type="text" className="w-100 footer-input-field" id="exampleFormControlInput1" placeholder="Your name" />
                   </div>
-                  <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email address" />
+                  <div className="mb-3">
+                    <input type="email" className="footer-input-field" id="exampleFormControlInput1" placeholder="Your email address" />
                   </div>
-                  <div class="mb-3">
-                    <textarea style={{resize:"none"}} class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
+                  <div className="mb-3">
+                    <textarea style={{resize:"none"}} className="footer-input-field" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
+                  </div>
+                  <div className="">
+                    <button className="brand-bg fw-bold text-white footer-submit-btn">Submit</button>
                   </div>
                 </form>
               </div>

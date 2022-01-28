@@ -1,0 +1,25 @@
+.home-page-faq-container {
+  border-bottom: 1px solid #097a09;
+}
+
+.accordion-button {
+  background-color: #fff;
+  color: #097a09 !important;
+  outline: none;
+  border-color: #097a09 !important;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.accordion-button:focus {
+  background-color: rgb(9, 122, 9, 0.3);
+  color: #097a09 !important;
+  outline: none;
+  border-color: #097a09 !important;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.accordion-button.collapsed:focus {
+  outline: none;
+}
