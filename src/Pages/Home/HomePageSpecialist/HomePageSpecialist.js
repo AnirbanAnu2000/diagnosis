@@ -45,7 +45,7 @@ export default class HomePageSpecialist extends Component {
     return (
       <div id="home-page-specialist" className="my-5 brand-bg">
         <div className="container p-0">
-          <h2 className="text-white fw-bold text-center specialist-heading">আমাদের বিশেষজ্ঞ চিকিৎসকগণ</h2>
+          <h1 className="text-white fw-bold text-center specialist-heading pt-3 pb-2"><i className="fab fa-pagelines"></i> আমাদের বিশেষজ্ঞ চিকিৎসকগণ</h1>
           <Slider {...settings}>
             <div>
               <div className="card mx-3">
