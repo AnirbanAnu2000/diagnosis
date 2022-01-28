@@ -23,7 +23,7 @@ const HomePageBanner = () => {
                     <div className="text-center">
                       <h1 className="banner-heading">আপনার সবচেয়ে বিশ্বস্ত স্বাস্থ্য সঙ্গী</h1>
                       <p className="text-white mb-5">আপনি যদি সেরা চিকিৎসা পরিষেবা খুঁজছেন, আপনি সঠিক জায়গায় আছেন</p>
-                      <button className="btn brand-bg text-white fw-bold" size="lg">Read More <i className="fas fa-angle-right"></i></button>
+                      <button className="btn brand-bg text-white fw-bold" size="lg">আরো পড়ুন <i className="fas fa-angle-right"></i></button>
                     </div>
                   </div>
                 </div>
@@ -39,7 +39,7 @@ const HomePageBanner = () => {
                     <div className="text-center">
                       <h1 className="banner-heading">আমরা আপনার সুস্থ স্বাস্থ্যের যত্ন নিই</h1>
                       <p className="text-white mb-5">আমরা আমাদের রোগীদের সর্বোচ্চ স্তরের সন্তুষ্টি যত্ন এবং পরিষেবা প্রদান করি। একটি স্বাস্থ্যকর পরিবেশ গড়ে তোলা যা সম্প্রদায়ের উন্নয়নে সহায়তা করে।</p>
-                      <button className="btn brand-bg text-white fw-bold" size="lg">Read More <i className="fas fa-angle-right"></i></button>
+                      <button className="btn brand-bg text-white fw-bold" size="lg">আরো পড়ুন <i className="fas fa-angle-right"></i></button>
                     </div>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ const HomePageBanner = () => {
                     <div className="text-center">
                       <h1 className="banner-heading">আমাদের লক্ষ্য হল আপনার স্বাস্থ্যের যত্ন নেওয়া</h1>
                       <p className="text-white mb-5">আমরা আমাদের রোগীদের সর্বোচ্চ স্তরের সন্তুষ্টি যত্ন এবং পরিষেবা প্রদান করি। একটি স্বাস্থ্যকর পরিবেশ গড়ে তোলা যা সম্প্রদায়ের উন্নয়নে সহায়তা করে।</p>
-                      <button className="btn brand-bg text-white fw-bold" size="lg">Read More <i className="fas fa-angle-right"></i></button>
+                      <button className="btn brand-bg text-white fw-bold" size="lg">আরো পড়ুন <i className="fas fa-angle-right"></i></button>
                     </div>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const HomePageBanner = () => {
                     <div className="text-center">
                       <h1 className="banner-heading">আপনার সবচেয়ে বিশ্বস্ত স্বাস্থ্য সঙ্গী</h1>
                       <p className="text-white mb-5">আপনি যদি সেরা চিকিৎসা পরিষেবা খুঁজছেন, আপনি সঠিক জায়গায় আছেন</p>
-                      <button className="btn brand-bg text-white fw-bold" size="lg">Read More <i className="fas fa-angle-right"></i></button>
+                      <button className="btn brand-bg text-white fw-bold" size="lg">আরো পড়ুন <i className="fas fa-angle-right"></i></button>
                     </div>
                   </div>
                 </div>
@@ -101,7 +101,7 @@ const HomePageBanner = () => {
                     <div className="text-center">
                       <h1 className="banner-heading">আমরা আপনার সুস্থ স্বাস্থ্যের যত্ন নিই</h1>
                       <p className="text-white mb-5">আমরা আমাদের রোগীদের সর্বোচ্চ স্তরের সন্তুষ্টি যত্ন এবং পরিষেবা প্রদান করি। একটি স্বাস্থ্যকর পরিবেশ গড়ে তোলা যা সম্প্রদায়ের উন্নয়নে সহায়তা করে।</p>
-                      <button className="btn brand-bg text-white fw-bold" size="lg">Read More <i className="fas fa-angle-right"></i></button>
+                      <button className="btn brand-bg text-white fw-bold" size="lg">আরো পড়ুন <i className="fas fa-angle-right"></i></button>
                     </div>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ const HomePageBanner = () => {
                     <div className="text-center">
                       <h1 className="banner-heading">আমাদের লক্ষ্য হল আপনার স্বাস্থ্যের যত্ন নেওয়া</h1>
                       <p className="text-white mb-5">আমরা আমাদের রোগীদের সর্বোচ্চ স্তরের সন্তুষ্টি যত্ন এবং পরিষেবা প্রদান করি। একটি স্বাস্থ্যকর পরিবেশ গড়ে তোলা যা সম্প্রদায়ের উন্নয়নে সহায়তা করে।</p>
-                      <button className="btn brand-bg text-white fw-bold" size="lg">Read More <i className="fas fa-angle-right"></i></button>
+                      <button className="btn brand-bg text-white fw-bold" size="lg">আরো পড়ুন <i className="fas fa-angle-right"></i></button>
                     </div>
                   </div>
                 </div>

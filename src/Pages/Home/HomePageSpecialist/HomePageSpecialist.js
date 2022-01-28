@@ -12,21 +12,48 @@ export default class HomePageSpecialist extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 4000,
+      speed: 1000,
+      autoplaySpeed: 3000,
+      responsive: [
+        {
+          breakpoint: 1099,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+          }
+        },
+        {
+          breakpoint: 850,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            dots: false,
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false,
+          }
+        }
+      ]
     };
     return (
-      <div id="home-page-specialist" className="my-5">
+      <div id="home-page-specialist" className="my-5 brand-bg">
         <div className="container p-0">
-          <h2> Multiple items </h2>
+          <h2 className="text-white fw-bold text-center specialist-heading">আমাদের বিশেষজ্ঞ চিকিৎসকগণ</h2>
           <Slider {...settings}>
             <div>
               <div className="card mx-3">
                 <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/8.jpg?raw=true"  alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" className="btn btn-primary">Go somewhere</a>
+                  <h5 className="card-title">Specialized Dr. Name</h5>
+                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                 </div>
               </div>
             </div>
@@ -34,9 +61,9 @@ export default class HomePageSpecialist extends Component {
               <div className="card mx-3">
                 <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/1.jpg?raw=true" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" className="btn btn-primary">Go somewhere</a>
+                  <h5 className="card-title">Specialized Dr. Name</h5>
+                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                 </div>
               </div>
             </div>
@@ -44,9 +71,9 @@ export default class HomePageSpecialist extends Component {
               <div className="card mx-3">
                 <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/3.jpg?raw=true" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" className="btn btn-primary">Go somewhere</a>
+                  <h5 className="card-title">Specialized Dr. Name</h5>
+                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                 </div>
               </div>
             </div>
@@ -54,9 +81,9 @@ export default class HomePageSpecialist extends Component {
               <div className="card mx-3">
                 <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/4.jpg?raw=true" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" className="btn btn-primary">Go somewhere</a>
+                  <h5 className="card-title">Specialized Dr. Name</h5>
+                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                 </div>
               </div>
             </div>
@@ -64,9 +91,9 @@ export default class HomePageSpecialist extends Component {
               <div className="card mx-3">
                 <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/10.jpg?raw=true" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" className="btn btn-primary">Go somewhere</a>
+                  <h5 className="card-title">Specialized Dr. Name</h5>
+                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                 </div>
               </div>
             </div>
@@ -74,9 +101,9 @@ export default class HomePageSpecialist extends Component {
               <div className="card mx-3">
                 <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/6.jpg?raw=true" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" className="btn btn-primary">Go somewhere</a>
+                  <h5 className="card-title">Specialized Dr. Name</h5>
+                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                 </div>
               </div>
             </div>
@@ -84,9 +111,9 @@ export default class HomePageSpecialist extends Component {
               <div className="card mx-3">
                 <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/7.jpg?raw=true" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" className="btn btn-primary">Go somewhere</a>
+                  <h5 className="card-title">Specialized Dr. Name</h5>
+                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                 </div>
               </div>
             </div>
@@ -94,9 +121,9 @@ export default class HomePageSpecialist extends Component {
               <div className="card mx-3">
                 <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/2.jpg?raw=true" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" className="btn btn-primary">Go somewhere</a>
+                  <h5 className="card-title">Specialized Dr. Name</h5>
+                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                 </div>
               </div>
             </div>
@@ -104,9 +131,9 @@ export default class HomePageSpecialist extends Component {
               <div className="card mx-3">
                 <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/9.jpg?raw=true" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" className="btn btn-primary">Go somewhere</a>
+                  <h5 className="card-title">Specialized Dr. Name</h5>
+                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                 </div>
               </div>
             </div>

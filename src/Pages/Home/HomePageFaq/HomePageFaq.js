@@ -4,10 +4,10 @@ import "./HomePageFaq.css";
 const HomePageFaq = () => {
   return (
     <div id="home-page-faq-part">
-      <div className="container py-5 home-page-faq-container">
+      <div className="container py-5 home-page-faq-container"> 
         <h1 className="fw-bold brand-color text-center"><i className="fab fa-pagelines"></i> সচরাচর জিজ্ঞাস্য</h1>
         <div className="row py-5">
-          <div className="col-lg-6">
+          <div className="col-lg-6 d-flex align-items-center justify-content-center">
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
