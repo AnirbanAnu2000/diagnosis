@@ -43,101 +43,105 @@ export default class HomePageSpecialist extends Component {
       ]
     };
     return (
-      <div id="home-page-specialist" className="my-5 brand-bg">
-        <div className="container p-0">
-          <h1 className="text-white fw-bold text-center specialist-heading pt-3 pb-2"><i className="fab fa-pagelines"></i> আমাদের বিশেষজ্ঞ চিকিৎসকগণ</h1>
-          <Slider {...settings}>
-            <div>
-              <div className="card mx-3">
-                <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/8.jpg?raw=true"  alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Specialized Dr. Name</h5>
-                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
-                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+      <div id="home-page-specialist" className="my-5 brand-bg"> 
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <h1 className="text-white fw-bold text-center specialist-heading pt-3 pb-2"><i className="fab fa-pagelines"></i> আমাদের বিশেষজ্ঞ চিকিৎসকগণ</h1>
+              <Slider {...settings}>
+                <div>
+                  <div className="card mx-3 specialist-card">
+                    <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/8.jpg?raw=true"  alt="..." />
+                    <div className="card-body">
+                      <h5 className="card-title">Specialized Dr. Name</h5>
+                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="card mx-3">
-                <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/1.jpg?raw=true" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Specialized Dr. Name</h5>
-                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
-                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                <div>
+                  <div className="card mx-3 specialist-card">
+                    <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/1.jpg?raw=true" alt="..." />
+                    <div className="card-body">
+                      <h5 className="card-title">Specialized Dr. Name</h5>
+                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="card mx-3">
-                <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/3.jpg?raw=true" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Specialized Dr. Name</h5>
-                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
-                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                <div>
+                  <div className="card mx-3 specialist-card">
+                    <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/3.jpg?raw=true" alt="..." />
+                    <div className="card-body">
+                      <h5 className="card-title">Specialized Dr. Name</h5>
+                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="card mx-3">
-                <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/4.jpg?raw=true" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Specialized Dr. Name</h5>
-                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
-                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                <div>
+                  <div className="card mx-3 specialist-card">
+                    <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/4.jpg?raw=true" alt="..." />
+                    <div className="card-body">
+                      <h5 className="card-title">Specialized Dr. Name</h5>
+                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="card mx-3">
-                <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/10.jpg?raw=true" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Specialized Dr. Name</h5>
-                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
-                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                <div>
+                  <div className="card mx-3 specialist-card">
+                    <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/10.jpg?raw=true" alt="..." />
+                    <div className="card-body">
+                      <h5 className="card-title">Specialized Dr. Name</h5>
+                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="card mx-3">
-                <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/6.jpg?raw=true" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Specialized Dr. Name</h5>
-                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
-                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                <div>
+                  <div className="card mx-3 specialist-card">
+                    <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/6.jpg?raw=true" alt="..." />
+                    <div className="card-body">
+                      <h5 className="card-title">Specialized Dr. Name</h5>
+                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="card mx-3">
-                <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/7.jpg?raw=true" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Specialized Dr. Name</h5>
-                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
-                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                <div>
+                  <div className="card mx-3 specialist-card">
+                    <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/7.jpg?raw=true" alt="..." />
+                    <div className="card-body">
+                      <h5 className="card-title">Specialized Dr. Name</h5>
+                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="card mx-3">
-                <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/2.jpg?raw=true" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Specialized Dr. Name</h5>
-                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
-                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                <div>
+                  <div className="card mx-3 specialist-card">
+                    <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/2.jpg?raw=true" alt="..." />
+                    <div className="card-body">
+                      <h5 className="card-title">Specialized Dr. Name</h5>
+                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="card mx-3">
-                <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/9.jpg?raw=true" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Specialized Dr. Name</h5>
-                  <p className="card-text fw-bold brand-color">Specialized Subject</p>
-                  {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                <div>
+                  <div className="card mx-3 specialist-card">
+                    <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/9.jpg?raw=true" alt="..." />
+                    <div className="card-body">
+                      <h5 className="card-title">Specialized Dr. Name</h5>
+                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </Slider>
             </div>
-          </Slider>
+          </div>
         </div>
       </div>
     );

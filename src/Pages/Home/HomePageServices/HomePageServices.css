@@ -3,7 +3,8 @@
 }
 
 .services-part-heading {
-  margin-top: 30px;
+  margin-top: 60px;
+  padding-bottom: 25px; 
 }
 
 .service-card {
@@ -13,6 +14,26 @@
 
 .service-img {
   height: 250px;
-  padding: 20px;
+  padding: 20px; 
+}
+
+@media screen and (max-width:575px) {
+  .services-part-heading {
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:575px) {
+  
+  /* .services-part-heading {
+    margin-top: 50px;
+    padding-bottom: 10px;
+  } */
+
+  .service-card-col {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 }
 

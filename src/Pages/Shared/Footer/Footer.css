@@ -55,5 +55,45 @@
   border-radius: .25rem;
   border: 1px solid #097a09;
   appearance: none;
-  background-clip: padding-box;
+  background-clip: padding-box; 
+}
+
+@media screen and (max-width:575px) {
+  .footer-important-link {
+    margin-top: 15px;
+  }
+
+  .footer-contact-form {
+    margin-top: 30px;
+  }
+} 
+
+@media screen and (min-width:481px) and (max-width:575px) {
+
+  .footer-left-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-social-link li {
+    text-align: center;
+  }
+
+  .footer-important-link-heading {
+    text-align: center;
+  }
+
+  .footer-important-link ul {
+    margin: 0 auto !important;
+  }
+
+  .footer-form-heading {
+    text-align: center !important;
+  }
+
+  .footer-submit-btn-div {
+    display: flex;
+    justify-content: center;
+  }
+
 }

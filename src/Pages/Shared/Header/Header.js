@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-// import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee"; 
 import "./Header.css";
 
 const Header = () => {
@@ -47,11 +47,12 @@ const Header = () => {
         </div>*/}
         
         {/* Top navigation part */}
-        <nav className="navbar navbar-expand-lg navbar-light brand-bg py-3">
+        <nav className="navbar navbar-expand-md navbar-light brand-bg py-3" id="top-navigation">
           <div className="container">
             {/*<a className="navbar-brand" href="/">Navbar</a>*/}
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
+            <button className="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              {/*<span className="navbar-toggler-icon"></span>*/}
+              <span className="text-white fw-bold">মেনু</span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav m-auto mb-2 mb-lg-0">

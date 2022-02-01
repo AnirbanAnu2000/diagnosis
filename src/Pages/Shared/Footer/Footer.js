@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
       <div className="footer">
         <div className="container py-5">
-          <div className="row py-5">
+          <div className="row">
             <div className="col-lg-4">
               <div className="footer-left-content mb-4 d-flex align-items-center">
                 <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/care/logo.png" className="" alt="" style={{width:"50px"}} />
@@ -28,8 +28,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-4">
-              <h2 style={{fontSize:"24px"}} className="brand-color text-extra-bold mb-4">Important Links</h2>
+            <div className="col-lg-4 footer-important-link">
+              <h2 style={{fontSize:"24px"}} className="brand-color text-extra-bold mb-4 footer-important-link-heading">Important Links</h2>
               <div className="footer-middle-content d-flex align-items-center">
                 <ul style={{paddingLeft:0,marginRight:"50px"}}>
                   <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >Important Link-01</a></li>
@@ -39,10 +39,11 @@ const Footer = () => {
                   <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >Important Link-05</a></li>
                   <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >Important Link-05</a></li>
                 </ul>
-              </div>
+              </div> 
             </div>
-            <div className="col-lg-4">
-              <h2 style={{fontSize:"24px"}} className="brand-color text-extra-bold mb-4 footer-instagram">Contact Us</h2>
+
+            <div className="col-lg-4 footer-contact-form">
+              <h2 style={{fontSize:"24px"}} className="brand-color text-extra-bold mb-4 footer-form-heading">Contact Us</h2>
               <div>
                 <form>
                   <div className="mb-3">
@@ -54,9 +55,9 @@ const Footer = () => {
                   <div className="mb-3">
                     <textarea style={{resize:"none"}} className="footer-input-field" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
                   </div>
-                  <div className="">
+                  <div className="footer-submit-btn-div">
                     <button className="brand-bg fw-bold text-white footer-submit-btn">Submit</button>
-                  </div>
+                  </div> 
                 </form>
               </div>
           </div>

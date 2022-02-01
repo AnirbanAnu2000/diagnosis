@@ -3,7 +3,7 @@
 }
 
 .about-img {
-  height: 450px;
+  height: 450px; 
 }
 
 .home-about-part-right {
@@ -19,4 +19,24 @@
 
 .home-about-part-right p {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 575px){ 
+
+  .home-about-part-right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .home-about-part-right h1 {
+    font-size: 30px;
+  }
+
+  .home-about-part-right {
+    margin-bottom: 30px;
+  }
+
+  .home-about-part-left {
+    margin-bottom: 50px;
+  }
 }
