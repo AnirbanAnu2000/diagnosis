@@ -30,7 +30,7 @@
   
   /* .services-part-heading {
     margin-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
   } */
 
   .service-card-col {
@@ -50,6 +50,16 @@
   .service-img {
     height: 200px;
     padding: 10px; 
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+  
+  .services-part-heading {
+    margin-top: 50px;
+    padding-bottom: 10px; 
+    font-size: 36px;
   }
 
 }

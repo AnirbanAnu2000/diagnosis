@@ -35,6 +35,7 @@
 }
 
 @media screen and (min-width: 576px) and (max-width:767px) {
+
   .header-top-part-col {
     margin-bottom: 10px;
     margin-top: 10px;
@@ -62,4 +63,32 @@
   #top-navigation .navbar-nav .nav-item:last-child {
     margin-bottom: 0 !important; 
   }
+
 }
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+  .header-top-title {
+    font-size: 18px;
+  }
+
+  .header-top-info {
+    font-size: 15px;
+  }
+
+  #top-navigation .navbar-nav .nav-item {
+    margin-bottom: -7px;
+  }
+
+} 
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+  
+  #header-top-part .header-top-part-container{
+    padding-top: 15px;
+    padding-bottom: 7px;
+  }
+
+}
+
+

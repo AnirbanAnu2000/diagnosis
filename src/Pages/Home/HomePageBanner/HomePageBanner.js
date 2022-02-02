@@ -25,7 +25,7 @@ const HomePageBanner = () => {
                       <p className="text-white mb-5">আপনি যদি সেরা চিকিৎসা পরিষেবা খুঁজছেন, আপনি সঠিক জায়গায় আছেন</p>
                       <button className="btn brand-bg text-white fw-bold" size="lg">আরো পড়ুন <i className="fas fa-angle-right"></i></button>
                     </div>
-                  </div> 
+                  </div>  
                 </div>
               </div>
             </div>

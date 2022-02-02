@@ -3,30 +3,30 @@ import { NavLink } from 'react-router-dom';
 // import Marquee from "react-fast-marquee"; 
 import "./Header.css";
 
-const Header = () => {
+const Header = () => {  
   return (
     <div>
-      <div className="header-top-part">
-        <div className="container">
+      <div id="header-top-part"> 
+        <div className="container header-top-part-container">
           <div className="row">
-            <div className="col-lg-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
                 <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/care/logo.png" className="header-top-logo" alt="" />
             </div>
-            <div className="col-lg-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
               <div>
-                <h5 className="brand-color fw-bold"><i className="fas fa-phone-volume"></i> Hotline</h5>
-                <h6>000 000 000 000</h6>
-                <h5 className="brand-color fw-bold"><i className="far fa-envelope"></i> Email</h5>
-                <h6>abcxyz@gmail.com</h6>
+                <h5 className="brand-color fw-bold header-top-title"><i className="fas fa-phone-volume"></i> Hotline</h5>
+                <h6 className="header-top-info">000 000 000 000</h6>
+                <h5 className="brand-color fw-bold header-top-title"><i className="far fa-envelope"></i> Email</h5>
+                <h6 className="header-top-info">abcxyz@gmail.com</h6>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
               <div>
-                <h5 className="brand-color fw-bold"><i className="far fa-clock"></i> Working Hour</h5>
-                <h6>We are open 24 X 7</h6>
+                <h5 className="brand-color fw-bold header-top-title"><i className="far fa-clock"></i> Working Hour</h5>
+                <h6 className="header-top-info">We are open 24 X 7</h6>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
               <div className="header-top-social-link">
                 <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" ><i className="fab fa-facebook-f brand-color text-extra-bold"></i></a>
                 <a href="https://twitter.com/" target="_blank" rel="noreferrer" ><i className="fab fa-twitter brand-color text-extra-bold"></i></a>
@@ -69,7 +69,7 @@ const Header = () => {
                   }}
                   to="/home"
                   className="navbar-link fw-bold" 
-                  >হোম</NavLink>
+                  >হোম</NavLink> 
                 </li>
                 <li className="nav-item">
                   <NavLink 

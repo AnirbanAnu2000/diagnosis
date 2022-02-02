@@ -16,7 +16,7 @@ export default class HomePageSpecialist extends Component {
       autoplaySpeed: 3000,
       responsive: [
         {
-          breakpoint: 1099,
+          breakpoint: 1199,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -25,7 +25,7 @@ export default class HomePageSpecialist extends Component {
           }
         },
         {
-          breakpoint: 850,
+          breakpoint: 991,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -139,7 +139,7 @@ export default class HomePageSpecialist extends Component {
                     </div>
                   </div>
                 </div>
-              </Slider> 
+              </Slider>  
             </div>
           </div>
         </div>

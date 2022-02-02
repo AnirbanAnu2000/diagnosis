@@ -29,6 +29,7 @@
 
 
 @media only screen and (max-width:575px) {
+
   .slide-item-overlay h1 { 
     margin-left: 10px;
     margin-right: 10px;
@@ -49,10 +50,11 @@
 }
 
 @media only screen and (min-width:576px) and (max-width:767px) {
+
   .slide-item-overlay h1 { 
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 28px;
+    font-size: 28px; 
   }
 
   .slide-item-overlay p { 
@@ -65,4 +67,26 @@
   .carousel-control-next-icon {
     display: none;
   }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+  .slide-item-overlay h1 { 
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px; 
+  }
+
+  .slide-item-overlay p { 
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+
 }

@@ -4,10 +4,10 @@ import "./HomePageFaq.css";
 const HomePageFaq = () => {
   return (
     <div id="home-page-faq-part">
-      <div className="container py-5 home-page-faq-container"> 
+      <div className="container py-5 home-page-faq-container">  
         <h1 className="fw-bold brand-color text-center faq-part-heading"><i className="fab fa-pagelines"></i> সচরাচর জিজ্ঞাস্য</h1>
         <div className="row py-sm-5">
-          <div className="col-lg-6 d-flex align-items-center justify-content-center faq-qa"> 
+          <div className="col-md-6 col-12 d-flex align-items-center justify-content-center faq-qa"> 
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
@@ -47,7 +47,7 @@ const HomePageFaq = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 faq-img">
+          <div className="col-md-6 col-12 faq-img">
             <div>
               <img className="w-100" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/banner/banner3.jpg?raw=true" alt=""/>
             </div>
