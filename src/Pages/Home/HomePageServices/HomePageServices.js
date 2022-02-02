@@ -4,11 +4,11 @@ import './HomePageServices.css';
 
 const HomePageServices = () => {
   return (
-    <div id="home-page-services-part">
+    <div id="home-page-services-part"> 
       <div className="container pb-5 home-page-services-container"> 
         <h1 className="services-part-heading text-center fw-bold brand-color"><i className="fab fa-pagelines"></i> আমাদের সার্ভিস সমূহ</h1>
         <div className="row">
-          <div className="col-lg-4 service-card-col">
+          <div className="col-lg-4 col-sm-6 service-card-col">
             <div className="card service-card">
               <img src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/about/about3.jpg?raw=true" className="card-img-top service-img" alt="..." />
               <div className="card-body">
@@ -20,7 +20,7 @@ const HomePageServices = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 service-card-col">
+          <div className="col-lg-4 col-sm-6 service-card-col">
             <div className="card service-card">
               <img src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/about/about3.jpg?raw=true" className="card-img-top service-img" alt="..." />
               <div className="card-body">
@@ -32,7 +32,7 @@ const HomePageServices = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 service-card-col">
+          <div className="col-lg-4 col-sm-6 service-card-col">
             <div className="card service-card">
               <img src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/about/about3.jpg?raw=true" className="card-img-top service-img" alt="..." />
               <div className="card-body">

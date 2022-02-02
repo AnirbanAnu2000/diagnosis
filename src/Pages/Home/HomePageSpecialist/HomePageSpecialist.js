@@ -139,7 +139,7 @@ export default class HomePageSpecialist extends Component {
                     </div>
                   </div>
                 </div>
-              </Slider>
+              </Slider> 
             </div>
           </div>
         </div>

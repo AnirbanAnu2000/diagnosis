@@ -18,10 +18,12 @@
 }
 
 @media screen and (max-width:575px) {
+
   .services-part-heading {
     margin-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
   }
+  
 }
 
 @media screen and (min-width:481px) and (max-width:575px) {
@@ -35,5 +37,20 @@
     padding-left: 60px;
     padding-right: 60px;
   }
+
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+  
+  .services-part-heading {
+    margin-top: 50px;
+    padding-bottom: 10px; 
+  }
+  
+  .service-img {
+    height: 200px;
+    padding: 10px; 
+  }
+
 }
 

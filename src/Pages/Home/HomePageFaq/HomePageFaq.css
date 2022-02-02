@@ -15,7 +15,7 @@
   background-color: rgb(9, 122, 9, 0.3);
   color: #097a09 !important;
   outline: none;
-  border-color: #097a09 !important;
+  border-color: #097a09 !important; 
   font-weight: 700;
   font-size: 15px;
 }
@@ -39,4 +39,26 @@
   .faq-img {
     margin-top: 20px; 
   }
+
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+  
+  .faq-part-heading {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+
+  .faq-qa {
+    background-color: #097a09;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .faq-img {
+    margin-top: 20px; 
+    margin-bottom: -40px;
+  }
+
+
 }

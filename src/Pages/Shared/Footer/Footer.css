@@ -70,7 +70,11 @@
 
 @media screen and (min-width:481px) and (max-width:575px) {
 
-  .footer-left-content {
+  .footer-top-part {
+    padding-left: 20px;
+  }
+
+  /* .footer-left-content {
     display: flex;
     justify-content: center;
   }
@@ -94,6 +98,6 @@
   .footer-submit-btn-div {
     display: flex;
     justify-content: center;
-  }
+  } */
 
 }

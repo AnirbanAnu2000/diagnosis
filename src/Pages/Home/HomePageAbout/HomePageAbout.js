@@ -26,4 +26,4 @@ const HomePageAbout = () => {
   );
 };
 
-export default HomePageAbout;
+export default HomePageAbout; 

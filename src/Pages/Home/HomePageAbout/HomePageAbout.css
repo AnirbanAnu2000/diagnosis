@@ -33,7 +33,26 @@
   }
 
   .home-about-part-right {
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
+  }
+
+  .home-about-part-left {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+  .home-about-part-right {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .home-about-part-right h1 {
+    font-size: 30px;
+  }
+
+  .home-about-part-right {
+    margin-bottom: 30px; 
   }
 
   .home-about-part-left {
