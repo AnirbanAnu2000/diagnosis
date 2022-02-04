@@ -1,1 +1,241 @@
- 
+#about-page-banner {
+  background: linear-gradient( rgba(85, 85, 85, 0.6), rgba(9, 103, 9, 0.8)), url(https://github.com/AnirbanAnu2000/img-storage/blob/main/care/about/about-page-banner-bg.jpg?raw=true) no-repeat center;
+  background-size: cover;
+  height: 400px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+#about-page-banner .about-page-banner-content h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#about-page-chairman-statement {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #097a09;
+}
+
+.outer {
+  /* background-color:blue; */
+  width: 100%;
+  border: 20px solid #343a34;
+  -webkit-box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
+  box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.inner {
+  background-color:#d3d3d3;
+  height: 430px;
+  border-top: 20px solid #056105;
+  border-bottom: 20px solid #30087a;
+  border-right: 20px solid #6d5a06;
+  border-left: 20px solid #77093c;
+  -webkit-box-shadow: inset 10px 10px 37px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 10px 10px 37px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 10px 10px 37px 0px rgba(0,0,0,0.75);
+  overflow: hidden;
+}
+
+.chairman-img {
+  height: 100%;
+  padding: 20px;
+  transition: all ease-in-out .5s;
+}
+
+.chairman-img-col {
+  cursor: pointer;
+}
+
+.chairman-img-col:hover .chairman-img {
+  transform: scale(1.5);
+}
+
+.chairman-statement-text-content {
+  padding-left: 40px;
+}
+
+ .chairman-statement-text-content h1 {
+  margin-bottom: 25px;
+ }
+
+ .chairman-statement-text-content p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+ }
+
+#about-page-our-history {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #097a09;
+}
+
+.about-page-our-history-content h1 {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  display: inline-block;
+}
+
+#about-page-our-mission {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #097a09;
+}
+
+.about-page-our-mission-content h1 {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-bottom-left-radius: 70px;
+  border-top-right-radius: 70px;
+  display: inline-block;
+}
+
+#about-page-our-vision {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #097a09;
+}
+
+.about-page-our-vision-content h1 {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: inline-block;
+  background: linear-gradient( rgba(9, 103, 9, 0.7), rgba(9, 103, 9, 0.7)), url(https://github.com/AnirbanAnu2000/img-storage/blob/main/care/about/about-page-banner-bg.jpg?raw=true) no-repeat center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 575px) {
+
+  #about-page-chairman-statement {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-page-banner-content h1  {
+    font-size: 36px !important;
+  }
+
+  .outer {
+    border: 10px solid #343a34;
+  }
+
+  .inner {
+    height: 330px;
+    border-top: 10px solid #056105;
+    border-bottom: 10px solid #30087a;
+    border-right: 10px solid #6d5a06;
+    border-left: 10px solid #77093c;
+  }
+
+  .chairman-img {
+    padding: 10px;
+  }
+
+  .chairman-statement-text-content {
+    margin-top: 60px;
+    padding-left: 10px;
+  }
+
+  #about-page-our-history {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-page-our-history-content h1 {
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  #about-page-our-mission {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-page-our-mission-content h1 {
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  #about-page-our-vision {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width:767px) {
+
+  #about-page-chairman-statement {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .chairman-statement-text-content {
+    margin-top: 60px;
+    padding-left: 10px;
+  }
+  
+  #about-page-our-history {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-page-our-history-content h1 {
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  #about-page-our-mission {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-page-our-mission-content h1 {
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  #about-page-our-vision {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+}

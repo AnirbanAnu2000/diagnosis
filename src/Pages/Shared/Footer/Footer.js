@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
               <div>
                 <ul style={{paddingLeft:0}} className="contact-social-link">
-                <li><i className="fas fa-map-marker-alt me-2 text-white fw-bold"></i> 20, Ahsan Ahmed Road, Khulna</li>
+                <li><i className="fas fa-map-marker-alt me-2 text-white fw-bold"></i> 20, আহসান আহমেদ রোড, খুলনা</li>
                 <li><i className="fas fa-phone-volume me-2 text-white fw-bold"></i> +880 000 000 000 0</li>
                   <li><i className="far fa-envelope me-2 text-white fw-bold"></i> abc.xyz@gmail.com</li>
                   <li className="footer-social-links">
@@ -29,34 +29,34 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-4 footer-important-link">
-              <h2 style={{fontSize:"24px"}} className="brand-color text-extra-bold mb-4 footer-important-link-heading">Important Links</h2>
+              <h2 style={{fontSize:"24px"}} className="brand-color text-extra-bold mb-4 footer-important-link-heading">গুরুত্বপূর্ণ লিঙ্ক</h2>
               <div className="footer-middle-content d-flex align-items-center">
                 <ul style={{paddingLeft:0,marginRight:"50px"}}>
-                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >Important Link-01</a></li>
-                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >Important Link-02</a></li>
-                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >Important Link-03</a></li>
-                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >Important Link-04</a></li>
-                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >Important Link-05</a></li>
-                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >Important Link-05</a></li>
+                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >গুরুত্বপূর্ণ লিঙ্ক-01</a></li>
+                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >গুরুত্বপূর্ণ লিঙ্ক-02</a></li>
+                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >গুরুত্বপূর্ণ লিঙ্ক-03</a></li>
+                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >গুরুত্বপূর্ণ লিঙ্ক-04</a></li>
+                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >গুরুত্বপূর্ণ লিঙ্ক-05</a></li>
+                  <li className="mb-1"><a className="text-white fw-bold" href="/" target="_blank" rel="noreferrer" >গুরুত্বপূর্ণ লিঙ্ক-06</a></li>
                 </ul>
               </div> 
             </div>
 
             <div className="col-lg-4 footer-contact-form">
-              <h2 style={{fontSize:"24px"}} className="brand-color text-extra-bold mb-4 footer-form-heading">Contact Us</h2>
+              <h2 style={{fontSize:"24px"}} className="brand-color text-extra-bold mb-4 footer-form-heading">যোগাযোগ করুন</h2>
               <div>
                 <form>
                   <div className="mb-3">
-                    <input type="text" className="w-100 footer-input-field" id="exampleFormControlInput1" placeholder="Your name" />
+                    <input type="text" className="w-100 footer-input-field" id="exampleFormControlInput1" placeholder="আপনার নাম" />
                   </div>
                   <div className="mb-3">
-                    <input type="email" className="footer-input-field" id="exampleFormControlInput1" placeholder="Your email address" />
+                    <input type="email" className="footer-input-field" id="exampleFormControlInput1" placeholder="আপনার ইমেইল" />
                   </div>
                   <div className="mb-3">
-                    <textarea style={{resize:"none"}} className="footer-input-field" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
+                    <textarea style={{resize:"none"}} className="footer-input-field" id="exampleFormControlTextarea1" placeholder="তোমার বার্তা" rows="3"></textarea>
                   </div>
                   <div className="footer-submit-btn-div">
-                    <button className="brand-bg fw-bold text-white footer-submit-btn">Submit</button>
+                    <button className="brand-bg fw-bold text-white footer-submit-btn">সাবমিট</button>
                   </div> 
                 </form>
               </div>
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom-part text-center m-0 py-3" style={{backgroundColor:"#444"}}>
-        <p className="m-0" style={{color:"#fff"}}>Copyright by @Care Diagnosis - 2022</p>
+        <p className="m-0" style={{color:"#fff"}}>@কপিরাইট কেয়ার ডায়াগনসিস - 2022 সংরক্ষিত</p>
       </div>
     </div>
   );

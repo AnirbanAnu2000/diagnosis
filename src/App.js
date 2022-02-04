@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Pages/About/About';
 import Home from './Pages/Home/Home/Home';
+import { ScrollToTop } from './Pages/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
         </Routes>
       </BrowserRouter>
+      <ScrollToTop></ScrollToTop>
     </div>
   );
 }
