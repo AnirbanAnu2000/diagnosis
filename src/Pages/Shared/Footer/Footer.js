@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Col, Container, Row } from 'react-bootstrap';
 import './Footer.css';
 
 const Footer = () => {
@@ -10,12 +9,12 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-4">
               <div className="footer-left-content mb-4 d-flex align-items-center">
-                <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/care/logo.png" className="" alt="" style={{width:"50px"}} />
-                <h4 style={{fontSize:"24px"}} className="brand-color text-extra-bold heading-font d-inline-block">Care Diagnosis</h4>
+                <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/care/logo.png" className="me-2" alt="" style={{width:"50px"}} />
+                <h4 style={{fontSize:"24px"}} className="brand-color text-extra-bold heading-font d-inline-block pt-2">আব্দুল্লাহ প্যাথলজি</h4>
               </div>
               <div>
                 <ul style={{paddingLeft:0}} className="contact-social-link">
-                <li><i className="fas fa-map-marker-alt me-2 text-white fw-bold"></i> 20, আহসান আহমেদ রোড, খুলনা</li>
+                <li><i className="fas fa-map-marker-alt me-2 text-white fw-bold"></i> 129, Samsur Rahman Road,<br/> <span className="ps-4">(santidham more)Khulna,</span><br/> <span className="ps-4">Khulna Division, Bangladesh.</span></li>
                 <li><i className="fas fa-phone-volume me-2 text-white fw-bold"></i> +880 000 000 000 0</li>
                   <li><i className="far fa-envelope me-2 text-white fw-bold"></i> abc.xyz@gmail.com</li>
                   <li className="footer-social-links">
@@ -65,7 +64,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom-part text-center m-0 py-3" style={{backgroundColor:"#444"}}>
-        <p className="m-0" style={{color:"#fff"}}>@কপিরাইট কেয়ার ডায়াগনসিস - 2022 সংরক্ষিত</p>
+        <p className="m-0" style={{color:"#fff"}}>@কপিরাইট আব্দুল্লাহ প্যাথলজি - ২০২২ সংরক্ষিত</p>
       </div>
     </div>
   );

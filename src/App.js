@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home/Home';
 import { ScrollToTop } from './Pages/ScrollToTop/ScrollToTop';
 import About from './Pages/About/About/About';
 import Services from './Pages/Services/Services/Services';
+import NotFound from './Pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/home" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/services" element={<Services />}></Route>
+          <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </BrowserRouter>
       <ScrollToTop></ScrollToTop>
