@@ -1,0 +1,66 @@
+#services-page-banner {
+  background: linear-gradient( rgba(85, 85, 85, 0.7), rgba(9, 103, 9, 0.7)), url(https://github.com/AnirbanAnu2000/img-storage/blob/main/care/services/service-page-banner-bg.jpg?raw=true) no-repeat center;
+  background-size: cover;
+  height: 400px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+#services-page-banner .services-page-banner-content h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#services-page .service-title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 575px) {
+
+  #services-page-banner .services-page-banner-content h1 {
+    font-size: 36px;
+  }
+
+  .services-page-service-img {
+    margin-bottom: 15px;
+  }
+
+  .services-page-service-img img {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+
+  .services-page-service-img img{
+    display: block;
+    margin: 0 auto !important;
+  }
+
+  .services-page-service-img {
+    margin-bottom: 15px;
+  }
+  
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+  .services-page-service-img img {
+    height: 100%;
+  }
+
+  .services-page-service-img img {
+    height: 300px !important;
+  }
+
+  .card-service-detail {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+  }
+  
+}

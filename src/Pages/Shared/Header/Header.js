@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Marquee from "react-fast-marquee"; 
+// import Marquee from "react-fast-marquee"; 
 import "./Header.css";
 
 const Header = () => {  
@@ -38,13 +38,13 @@ const Header = () => {
         </div>
 
         {/* Special declaration start */}
-        <div className="special-declaration">
+        {/*<div className="special-declaration">
           <div className="container-fluid px-0">
             <Marquee behavior="scroll" direction="left" speed="60" pauseOnHover="true" gradientWidth="0">
               <h5 className="text-danger fw-bold">ভাল পরিষেবার জন্য আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না। হট লাইন: +880 00000000000, ইমেইল: abcxyz@gmail.com  আমরা আপনার সেবায় ২৪ ঘন্টা নিয়োজিত.</h5>
             </Marquee>
           </div>
-        </div>
+        </div> */}
         {/* Special declaration end */}
         
         {/* Top navigation part */}
@@ -86,6 +86,21 @@ const Header = () => {
                   to="/about"
                   className="navbar-link fw-bold" 
                   >পরিচিতি</NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink 
+                  style={({ isActive }) => {
+                    return {
+                      padding: "10px 15px 6px",
+                      borderRadius: "5px",
+                      marginRight: "10px",
+                      color: isActive ? "#097a09" : "#ffffff",
+                      backgroundColor: isActive ? "#ffffff" :  "transparent",
+                    };
+                  }}
+                  to="/services"
+                  className="navbar-link fw-bold" 
+                  >সেবা সমূহ</NavLink>
                 </li>
               </ul>
             </div>
