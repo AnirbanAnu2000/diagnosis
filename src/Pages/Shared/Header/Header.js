@@ -26,7 +26,10 @@ const Header = () => {
             <div className="col-md-2 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
               <div>
                 <h5 className="brand-color fw-bold header-top-title"><i className="far fa-clock"></i> আমাদের কর্মঘণ্টা</h5>
-                <h6 className="header-top-info">২৪ X ৭ আপনাদের সেবায়</h6>
+                <h6 className="header-top-info">
+                  শনিবার - বৃহস্পতিবার খোলা <br className="mb-2" />
+                  শুক্রবার সাপ্তাহিক বন্ধ
+                </h6>
               </div>
             </div>
           {/*<div className="col-lg-2 col-sm-4 header-top-part-col py-3 d-flex align-items-center justify-content-center">
