@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 // import Marquee from "react-fast-marquee"; 
 import "./Header.css";
@@ -12,23 +13,24 @@ const Header = () => {
             <div className="col-md-2 col-sm-4 header-top-part-col py-3 d-flex align-items-center justify-content-center">
                 <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/care/logo.png" className="header-top-logo" alt="" />
             </div>
-            <div className="col-md-6 col-sm-8 header-top-part-col d-flex align-items-center justify-content-center brand-color header-brand-name">
+            <div className="col-md-5 col-sm-8 header-top-part-col d-flex align-items-center justify-content-center brand-color header-brand-name">
               <h1>আব্দুল্লাহ্ প্যাথলজি</h1>
             </div>
             <div className="col-md-2 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
               <div>
                 <h5 className="brand-color fw-bold header-top-title"><i className="fas fa-phone-volume"></i> হটলাইন</h5>
-                <h6 className="header-top-info">000 000 000 000</h6>
+                <h6 className="header-top-info">+8801745700747</h6>
                 <h5 className="brand-color fw-bold header-top-title"><i className="far fa-envelope"></i> ইমেইল</h5>
-                <h6 className="header-top-info">abcxyz@gmail.com</h6>
+                <h6 className="header-top-info">abdullahpathology@gmail.com</h6>
+                <h6 className="header-top-info">roshedm@yahoo.com</h6>
               </div> 
             </div>
-            <div className="col-md-2 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
               <div>
                 <h5 className="brand-color fw-bold header-top-title"><i className="far fa-clock"></i> আমাদের কর্মঘণ্টা</h5>
                 <h6 className="header-top-info">
-                  শনিবার - বৃহস্পতিবার খোলা <br className="mb-2" />
-                  শুক্রবার সাপ্তাহিক বন্ধ
+                  শনিবার - বৃহস্পতিবার <br className="mb-2" />
+                  শুক্রবার বন্ধ
                 </h6>
               </div>
             </div>
@@ -57,12 +59,17 @@ const Header = () => {
         <nav className="navbar navbar-expand-md navbar-light brand-bg py-3" id="top-navigation">
           <div className="container pt-1">
             {/*<a className="navbar-brand" href="/">Navbar</a>*/}
-            <button className="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <Link to="/" className="navbar-brand navbar-brand-logo d-lg-none">
+              <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/care/logo.png" alt="" />
+              <span className="text-white ms-2">আব্দুল্লাহ্ প্যাথলজি</span>
+            </Link>
+            <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               {/*<span className="navbar-toggler-icon"></span>*/}
-              <span className="text-white fw-bold">মেনু</span>
+              {/*<span className="text-white fw-bold">মেনু</span>*/}
+              <i class="fas fa-bars menu-bars-icon"></i>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav m-auto mb-2 mb-lg-0"> 
+              <ul className="navbar-nav mx-lg-auto ms-md-auto mb-2 mb-lg-0"> 
                 <li className="nav-item">
                   <NavLink 
                   style={({ isActive }) => {
@@ -112,6 +119,34 @@ const Header = () => {
             </div>
           </div>
         </nav>
+        <div className="hotline-email-wh-mobile-device d-lg-none">
+          <div className="container">
+            <div className="row">
+              <div className="col-5 py-2 d-flex align-items-center justify-content-center">
+                <div className="text-center">
+                  <h5 className="brand-color fw-bold header-mobile-part-title"><i className="fas fa-phone-volume"></i> হটলাইন</h5>
+                  <h6 className="header-info-mobile">+8801745700747</h6>
+                </div> 
+              </div>
+              <div className="col-7 py-2 d-flex align-items-center justify-content-center">
+                <div className="text-center">
+                  <h5 className="brand-color fw-bold header-mobile-part-title"><i className="far fa-envelope"></i> ইমেইল</h5>
+                  <h6 className="header-info-mobile">abdullahpathology@gmail.com</h6>
+                  <h6 className="header-info-mobile">roshedm@yahoo.com</h6>
+                </div> 
+              </div>
+              <hr />
+              <div className="col-12 d-flex align-items-center justify-content-center">
+                <div className="text-center">
+                  <h5 className="brand-color fw-bold header-mobile-part-title text-center"><i className="far fa-clock"></i> আমাদের কর্মঘণ্টা</h5>
+                  <h6 className="header-info-mobile">
+                    শনিবার - বৃহস্পতিবার এবং শুক্রবার বন্ধ
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

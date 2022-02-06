@@ -31,6 +31,11 @@
 
 @media screen and (max-width: 575px){
 
+  #top-navigation {
+    padding-top: 5px !important;
+    padding-bottom: 8px !important;
+  }
+
   .header-top-logo {
     width: 25%;
   }
@@ -44,9 +49,28 @@
     margin-bottom: 10px;
   }
 
-  .navbar-toggler {
+  #top-navigation .navbar-toggler {
     box-shadow: none !important;
     border: 0 !important;
+
+  }
+
+  .menu-bars-icon {
+    color: #fff;
+    padding: 4px 7px;
+    font-size: 20px;
+    border: 3px solid #fff !important;
+  }
+
+  .navbar-brand-logo img {
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+
+  .navbar-brand-logo span {
+    font-weight: 700;
+    font-size: 20px;
   }
 
   #top-navigation .navbar-nav {
@@ -66,9 +90,26 @@
     margin-bottom: 0 !important; 
   }
 
+  .header-mobile-part-title {
+    font-size: 16px;
+  }
+
+  .header-info-mobile {
+    font-size: 14px;
+  }
+
+  .header-top-part-container {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 576px) and (max-width:767px) {
+
+  #top-navigation {
+    padding-top: 5px !important;
+    padding-bottom: 8px !important;
+  }
 
   .header-top-logo {
     width: 55% !important;
@@ -113,9 +154,44 @@
     margin-bottom: 0 !important; 
   }
 
+  .menu-bars-icon {
+    color: #fff;
+    padding: 4px 7px;
+    font-size: 20px;
+    border: 3px solid #fff !important;
+  }
+
+  .navbar-brand-logo img {
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+
+  .navbar-brand-logo span {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .header-mobile-part-title {
+    font-size: 16px;
+  }
+
+  .header-info-mobile {
+    font-size: 14px;
+  }
+
+  .header-top-part-container {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
+
+  #top-navigation {
+    padding-top: 5px !important;
+    padding-bottom: 8px !important;
+  }
 
   .header-top-logo {
     width: 100% !important;
@@ -144,6 +220,37 @@
     margin-bottom: -7px;
   }
 
+  
+  .menu-bars-icon {
+    color: #fff;
+    padding: 4px 7px;
+    font-size: 20px;
+    border: 3px solid #fff !important;
+  }
+
+  .navbar-brand-logo img {
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+
+  .navbar-brand-logo span {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .header-mobile-part-title {
+    font-size: 16px;
+  }
+
+  .header-info-mobile {
+    font-size: 14px;
+  }
+
+  .header-top-part-container {
+    display: none;
+  }
+
 } 
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -154,12 +261,25 @@
 
   .header-brand-name h1 {
     margin-top: 10px;
-    font-size: 55px;
+    font-size: 50px;
   }
   
   #header-top-part .header-top-part-container{
     padding-top: 15px;
     padding-bottom: 7px;  
+  }
+
+  .navbar-brand-logo {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+
+  .header-brand-name h1 {
+    margin-top: 10px;
+    font-size: 60px;
   }
 
 }
