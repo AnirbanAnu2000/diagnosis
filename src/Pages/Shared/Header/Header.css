@@ -1,10 +1,10 @@
 .header-top-logo {
-  width: 70%;
+  width: 80%;
 }
 
 .header-brand-name h1 {
-  font-size: 50px;
-  margin-top: 15px;
+  font-size: 70px;
+  margin-top: 15px; 
 }
 
 .navbar-link {
@@ -37,7 +37,7 @@
 
   .header-brand-name h1 {
     margin-top: 10px;
-    font-size: 36px;
+    font-size: 40px;
   }
 
   .header-top-social-link {
@@ -71,12 +71,12 @@
 @media screen and (min-width: 576px) and (max-width:767px) {
 
   .header-top-logo {
-    width: 50% !important;
+    width: 55% !important;
   }
 
   .header-brand-name h1 {
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .header-top-part-col {
@@ -118,18 +118,18 @@
 @media screen and (min-width:768px) and (max-width:991px) {
 
   .header-top-logo {
-    width: 55% !important;
+    width: 100% !important;
   }
 
   .header-brand-name h1 {
     margin-top: 10px;
-    font-size: 50px;
+    font-size: 43px;
   }
 
   .header-top-part-col {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     margin-top: 10px;
-    border-bottom: 1px solid #097a09;
+    /* border-bottom: 1px solid #097a09; */
   }
 
   .header-top-title {
@@ -149,17 +149,17 @@
 @media screen and (min-width:992px) and (max-width:1199px) {
 
   .header-top-logo {
-    width: 75% !important;
+    width: 90% !important;
   }
 
   .header-brand-name h1 {
     margin-top: 10px;
-    font-size: 42px;
+    font-size: 55px;
   }
   
   #header-top-part .header-top-part-container{
     padding-top: 15px;
-    padding-bottom: 7px; 
+    padding-bottom: 7px;  
   }
 
 }

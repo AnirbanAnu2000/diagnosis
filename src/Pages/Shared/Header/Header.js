@@ -9,34 +9,34 @@ const Header = () => {
       <div id="header-top-part"> 
         <div className="container header-top-part-container">
           <div className="row">
-            <div className="col-lg-2 col-sm-4 header-top-part-col py-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-2 col-sm-4 header-top-part-col py-3 d-flex align-items-center justify-content-center">
                 <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/care/logo.png" className="header-top-logo" alt="" />
             </div>
-            <div className="col-lg-4 col-sm-8 header-top-part-col d-flex align-items-center justify-content-center brand-color header-brand-name">
-              <h1>আব্দুল্লাহ প্যাথলজি</h1>
+            <div className="col-md-6 col-sm-8 header-top-part-col d-flex align-items-center justify-content-center brand-color header-brand-name">
+              <h1>আব্দুল্লাহ্ প্যাথলজি</h1>
             </div>
-            <div className="col-lg-2 col-sm-4 header-top-part-col py-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-2 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
               <div>
                 <h5 className="brand-color fw-bold header-top-title"><i className="fas fa-phone-volume"></i> হটলাইন</h5>
                 <h6 className="header-top-info">000 000 000 000</h6>
                 <h5 className="brand-color fw-bold header-top-title"><i className="far fa-envelope"></i> ইমেইল</h5>
                 <h6 className="header-top-info">abcxyz@gmail.com</h6>
-              </div>
+              </div> 
             </div>
-            <div className="col-lg-2 col-sm-4 header-top-part-col py-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-2 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
               <div>
                 <h5 className="brand-color fw-bold header-top-title"><i className="far fa-clock"></i> আমাদের কর্মঘণ্টা</h5>
                 <h6 className="header-top-info">২৪ X ৭ আপনাদের সেবায়</h6>
               </div>
             </div>
-            <div className="col-lg-2 col-sm-4 header-top-part-col py-3 d-flex align-items-center justify-content-center">
+          {/*<div className="col-lg-2 col-sm-4 header-top-part-col py-3 d-flex align-items-center justify-content-center">
               <div className="header-top-social-link">
                 <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" ><i className="fab fa-facebook-f brand-color text-extra-bold"></i></a>
                 <a href="https://twitter.com/" target="_blank" rel="noreferrer" ><i className="fab fa-twitter brand-color text-extra-bold"></i></a>
                 <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" ><i className="fab fa-linkedin-in brand-color text-extra-bold"></i></a>
                 <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" ><i className="fab fa-instagram brand-color text-extra-bold"></i></a>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
 
@@ -109,7 +109,6 @@ const Header = () => {
             </div>
           </div>
         </nav>
-
       </div>
     </div>
   );
