@@ -13,16 +13,16 @@ const Header = () => {
             <div className="col-md-2 col-sm-4 header-top-part-col py-3 d-flex align-items-center justify-content-center">
                 <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/care/logo.png" className="header-top-logo" alt="" />
             </div>
-            <div className="col-md-5 col-sm-8 header-top-part-col d-flex align-items-center justify-content-center brand-color header-brand-name">
+            <div className="col-md-4 col-sm-8 header-top-part-col d-flex align-items-center justify-content-center justify-content-lg-start brand-color header-brand-name">
               <h1>আব্দুল্লাহ্ প্যাথলজি</h1>
             </div>
-            <div className="col-md-2 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
+            <div className="col-md-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">
               <div>
                 <h5 className="brand-color fw-bold header-top-title"><i className="fas fa-phone-volume"></i> হটলাইন</h5>
                 <h6 className="header-top-info">+8801745700747</h6>
                 <h5 className="brand-color fw-bold header-top-title"><i className="far fa-envelope"></i> ইমেইল</h5>
-                <h6 className="header-top-info">abdullahpathology@gmail.com</h6>
                 <h6 className="header-top-info">roshedm@yahoo.com</h6>
+                <h6 className="header-top-info">abdullahpathology@gmail.com</h6>
               </div> 
             </div>
             <div className="col-md-3 col-sm-6 header-top-part-col py-3 d-flex align-items-center justify-content-center">

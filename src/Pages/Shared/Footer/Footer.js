@@ -24,8 +24,8 @@ const Footer = () => {
                   </li>
 
                   <li>
-                    <i className="far fa-envelope me-2 text-white fw-bold"></i> abdullahpathology@gmail.com <br /> 
-                    <span className="ps-4">roshedm@yahoo.com</span>
+                    <i className="far fa-envelope me-2 text-white fw-bold"></i> roshedm@yahoo.com <br /> 
+                    <span className="ps-4">abdullahpathology@gmail.com</span>
                   </li>
 
                   {/*<li className="footer-social-links">
@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom-part text-center m-0 py-3" style={{backgroundColor:"#444"}}>
-        <p className="m-0 fw-bold" style={{color:"#fff"}}>&#169; কপিরাইট আব্দুল্লাহ প্যাথলজি</p>
+        <p className="m-0 fw-bold" style={{color:"#fff"}}>&#169; আব্দুল্লাহ প্যাথলজি</p>
       </div>
     </div>
   );

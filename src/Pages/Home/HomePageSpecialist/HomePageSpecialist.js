@@ -53,8 +53,8 @@ export default class HomePageSpecialist extends Component {
                   <div className="card mx-3 specialist-card">
                     <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/8.jpg?raw=true"  alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Specialized Dr. Name</h5>
-                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      <h5 className="card-title">বিশেষজ্ঞ ডাক্তারের নাম</h5>
+                      <p className="card-text fw-bold brand-color">বিশেষায়িত বিষয়</p>
                       {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                     </div>
                   </div>
@@ -63,8 +63,8 @@ export default class HomePageSpecialist extends Component {
                   <div className="card mx-3 specialist-card">
                     <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/1.jpg?raw=true" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Specialized Dr. Name</h5>
-                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      <h5 className="card-title">বিশেষজ্ঞ ডাক্তারের নাম</h5>
+                      <p className="card-text fw-bold brand-color">বিশেষায়িত বিষয়</p>
                       {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                     </div>
                   </div>
@@ -73,8 +73,8 @@ export default class HomePageSpecialist extends Component {
                   <div className="card mx-3 specialist-card">
                     <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/3.jpg?raw=true" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Specialized Dr. Name</h5>
-                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      <h5 className="card-title">বিশেষজ্ঞ ডাক্তারের নাম</h5>
+                      <p className="card-text fw-bold brand-color">বিশেষায়িত বিষয়</p>
                       {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                     </div>
                   </div>
@@ -83,8 +83,8 @@ export default class HomePageSpecialist extends Component {
                   <div className="card mx-3 specialist-card">
                     <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/4.jpg?raw=true" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Specialized Dr. Name</h5>
-                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      <h5 className="card-title">বিশেষজ্ঞ ডাক্তারের নাম</h5>
+                      <p className="card-text fw-bold brand-color">বিশেষায়িত বিষয়</p>
                       {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                     </div>
                   </div>
@@ -93,8 +93,8 @@ export default class HomePageSpecialist extends Component {
                   <div className="card mx-3 specialist-card">
                     <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/10.jpg?raw=true" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Specialized Dr. Name</h5>
-                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      <h5 className="card-title">বিশেষজ্ঞ ডাক্তারের নাম</h5>
+                      <p className="card-text fw-bold brand-color">বিশেষায়িত বিষয়</p>
                       {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                     </div>
                   </div>
@@ -103,8 +103,8 @@ export default class HomePageSpecialist extends Component {
                   <div className="card mx-3 specialist-card">
                     <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/6.jpg?raw=true" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Specialized Dr. Name</h5>
-                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      <h5 className="card-title">বিশেষজ্ঞ ডাক্তারের নাম</h5>
+                      <p className="card-text fw-bold brand-color">বিশেষায়িত বিষয়</p>
                       {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                     </div>
                   </div>
@@ -113,8 +113,8 @@ export default class HomePageSpecialist extends Component {
                   <div className="card mx-3 specialist-card">
                     <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/7.jpg?raw=true" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Specialized Dr. Name</h5>
-                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      <h5 className="card-title">বিশেষজ্ঞ ডাক্তারের নাম</h5>
+                      <p className="card-text fw-bold brand-color">বিশেষায়িত বিষয়</p>
                       {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                     </div>
                   </div>
@@ -123,8 +123,8 @@ export default class HomePageSpecialist extends Component {
                   <div className="card mx-3 specialist-card">
                     <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/2.jpg?raw=true" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Specialized Dr. Name</h5>
-                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      <h5 className="card-title">বিশেষজ্ঞ ডাক্তারের নাম</h5>
+                      <p className="card-text fw-bold brand-color">বিশেষায়িত বিষয়</p>
                       {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                     </div>
                   </div>
@@ -133,8 +133,8 @@ export default class HomePageSpecialist extends Component {
                   <div className="card mx-3 specialist-card">
                     <img className="card-img-top specialist-card-img" src="https://github.com/AnirbanAnu2000/img-storage/blob/main/care/doctor/9.jpg?raw=true" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Specialized Dr. Name</h5>
-                      <p className="card-text fw-bold brand-color">Specialized Subject</p>
+                      <h5 className="card-title">বিশেষজ্ঞ ডাক্তারের নাম</h5>
+                      <p className="card-text fw-bold brand-color">বিশেষায়িত বিষয়</p>
                       {/*<a href="/" className="btn btn-primary">Go somewhere</a>*/}
                     </div>
                   </div>

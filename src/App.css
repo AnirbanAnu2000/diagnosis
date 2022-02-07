@@ -9,15 +9,18 @@ font-family: 'Mina', sans-serif; */
   margin: 0;
   padding: 0;
   outline: 0;
+  font-family: 'Galada', cursive;
   /* font-family: 'Roboto Slab', serif; */
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Galada', cursive;
+  font-family: 'Galada', cursive !important;
 }
 
-p, a, a:hover, ul li, span {
-  font-family: 'Baloo Da 2', cursive;
+p, a, a:hover, ul li, span, div {
+  font-family: 'Galada', cursive !important;
+  font-weight: 400;
+  /* font-family: 'Baloo Da 2', cursive; */
 }
 
 a, 
