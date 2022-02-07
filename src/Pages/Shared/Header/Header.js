@@ -29,7 +29,7 @@ const Header = () => {
               <div>
                 <h5 className="brand-color fw-bold header-top-title"><i className="far fa-clock"></i> আমাদের কর্মঘণ্টা</h5>
                 <h6 className="header-top-info">
-                  শনিবার - বৃহস্পতিবার <br className="mb-2" />
+                  শনিবার - বৃহস্পতিবার, <br className="mb-2" />
                   শুক্রবার বন্ধ
                 </h6>
               </div>
@@ -119,6 +119,7 @@ const Header = () => {
             </div>
           </div>
         </nav>
+
         <div className="hotline-email-wh-mobile-device d-lg-none">
           <div className="container">
             <div className="row">
@@ -131,8 +132,8 @@ const Header = () => {
               <div className="col-7 py-2 d-flex align-items-center justify-content-center">
                 <div className="text-center">
                   <h5 className="brand-color fw-bold header-mobile-part-title"><i className="far fa-envelope"></i> ইমেইল</h5>
-                  <h6 className="header-info-mobile">abdullahpathology@gmail.com</h6>
                   <h6 className="header-info-mobile">roshedm@yahoo.com</h6>
+                  <h6 className="header-info-mobile">abdullahpathology@gmail.com</h6>
                 </div> 
               </div>
               <hr />
@@ -140,7 +141,7 @@ const Header = () => {
                 <div className="text-center">
                   <h5 className="brand-color fw-bold header-mobile-part-title text-center"><i className="far fa-clock"></i> আমাদের কর্মঘণ্টা</h5>
                   <h6 className="header-info-mobile">
-                    শনিবার - বৃহস্পতিবার এবং শুক্রবার বন্ধ
+                    শনিবার - বৃহস্পতিবার, শুক্রবার বন্ধ
                   </h6>
                 </div>
               </div>
