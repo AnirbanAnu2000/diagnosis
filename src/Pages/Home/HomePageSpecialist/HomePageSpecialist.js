@@ -43,8 +43,8 @@ export default class HomePageSpecialist extends Component {
       ]
     };
     return (
-      <div id="home-page-specialist" className="my-5 brand-bg"> 
-        <div className="container overflow-hidden">
+      <div id="home-page-specialist" className="my-5 brand-bg overflow-hidden"> 
+        <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <h1 className="text-white fw-bold text-center specialist-heading pt-3 pb-2" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-duration="500" data-aos-once="false" data-aos-mirror="true"><i className="fab fa-pagelines"></i> আমাদের বিশেষজ্ঞ চিকিৎসকগণ</h1>
