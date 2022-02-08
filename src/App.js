@@ -6,6 +6,10 @@ import { ScrollToTop } from './Pages/ScrollToTop/ScrollToTop';
 import About from './Pages/About/About/About';
 import Services from './Pages/Services/Services/Services';
 import NotFound from './Pages/NotFound/NotFound';
+// animation on scroll
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function App() {
   return (
