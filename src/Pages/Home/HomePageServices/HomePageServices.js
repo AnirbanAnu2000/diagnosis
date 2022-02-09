@@ -4,7 +4,7 @@ import './HomePageServices.css';
 
 const HomePageServices = () => {
   return (
-    <div id="home-page-services-part"> 
+    <div id="home-page-services-part" className="overflow-hidden"> 
       <div className="container pb-5 home-page-services-container"> 
         <h1 className="services-part-heading text-center fw-bold brand-color" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-duration="500" data-aos-once="false" data-aos-mirror="true"><i className="fab fa-pagelines"></i> আমাদের সেবা সমূহ</h1>
         <div className="row">

@@ -3,8 +3,8 @@ import "./HomePageFaq.css";
 
 const HomePageFaq = () => {
   return (
-    <div id="home-page-faq-part">
-      <div className="container py-5 home-page-faq-container overflow-hidden">  
+    <div id="home-page-faq-part" className="overflow-hidden">
+      <div className="container py-5 home-page-faq-container">  
         <h1 className="fw-bold brand-color text-center faq-part-heading" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-duration="500" data-aos-once="false" data-aos-mirror="true"><i className="fab fa-pagelines"></i> সচরাচর জিজ্ঞাস্য</h1>
         <div className="row py-sm-5">
           <div className="col-md-6 col-12 d-flex align-items-center justify-content-center faq-qa"> 

@@ -43,7 +43,7 @@ export default class HomePageSpecialist extends Component {
       ]
     };
     return (
-      <div id="home-page-specialist" className="my-5 brand-bg overflow-hidden"> 
+      <div id="home-page-specialist" className="my-5 brand-bg overflow-hidden">  
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
