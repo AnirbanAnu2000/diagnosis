@@ -47,7 +47,7 @@ export default class HomePageSpecialist extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h1 className="text-white fw-bold text-center specialist-heading pt-3 pb-2" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-duration="500" data-aos-once="false" data-aos-mirror="true"><i className="fab fa-pagelines"></i> আমাদের বিশেষজ্ঞ চিকিৎসকগণ</h1>
+              <h1 className="text-white fw-bold text-center specialist-heading pt-3 pb-2"><i className="fab fa-pagelines"></i> আমাদের বিশেষজ্ঞ চিকিৎসকগণ</h1>
               <Slider {...settings}>
                 <div>
                   <div className="card mx-3 specialist-card">
